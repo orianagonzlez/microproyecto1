@@ -140,3 +140,75 @@ body {
 .lista-about-me li {
     padding: 0.5rem;
 }
+
+/* ====== SKILLS ======= */
+
+#skills {
+    height: 36rem;
+}
+
+#contenedor-skills {
+    text-align: center;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.destreza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grafico-barra {
+    width: 4rem;
+    background-color: #a8dadc;
+    margin-bottom: 1rem;
+}
+
+.rango-10 {
+    height: 2rem;
+}
+
+.rango-20 {
+    height: 4rem;
+}
+
+.rango-30 {
+    height: 6rem;
+}
+
+.rango-40 {
+    height: 8rem;
+}
+
+.rango-50 {
+    height: 10rem;
+}
+
+.rango-60 {
+    height: 12rem;
+}
+
+.rango-70 {
+    height: 14rem;
+}
+
+.rango-80 {
+    height: 16rem;
+}
+
+.rango-90 {
+    height: 18rem;
+}
+
+.rango-100 {
+    height: 20rem;
+}
+
+.titulo-destreza {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    color: var(--secundary-color);
+}
+
