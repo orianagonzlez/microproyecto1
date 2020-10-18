@@ -37,3 +37,23 @@ habilidades.forEach(habilidad => {
     seccion.innerHTML += '<div class="destreza"><div class="grafico-barra rango-' + rangoDestreza + '"></div><div class="porcentaje-destreza">' + habilidad.destreza + '%</div>\n' + '<div class="titulo-destreza">' + habilidad.titulo + '</div></div>';
 });
 
+
+/* Enviando formulario */
+
+var enviarFormulario = () =>{
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var mensaje = document.getElementById('message').value;
+    
+    if (name.trim() === '' || email.trim() === '' || mensaje.trim() === ''){
+        alert('Debe rellenar todos los campos!');
+    } else {
+        console.log('Nombre: ' + name + '\nCorreo: ' + email + '\nMensaje: ' + mensaje);
+        alert('Su solicitud ha sido enviada.');
+        
+    }   
+};     
+
+    document.getElementById('boton-enviar').addEventListener('click', enviarFormulario);
+
+
