@@ -101,3 +101,42 @@ body {
     height: 1.5rem;
     font-weight: bold;
 }
+
+/* ====== ABOUT ME ======= */
+
+#about-me {
+    background-color: var(--secundary-color);
+    color: white;
+    padding-bottom: 2rem;
+}
+.contenedor-about-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto-about-me img{
+    height: 14rem;
+    width: 22rem;
+}
+
+.foto-about-me div {
+    text-align: right;
+    color: var(--third-color);
+    font-weight: bold;
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.lista-about-me {
+    margin-top: 2rem;
+}
+
+.lista-about-me div{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.lista-about-me li {
+    padding: 0.5rem;
+}
