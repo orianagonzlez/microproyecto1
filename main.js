@@ -56,4 +56,27 @@ var enviarFormulario = () =>{
 
     document.getElementById('boton-enviar').addEventListener('click', enviarFormulario);
 
+/* Hero */
+
+var indice = 1;
+
+function mostrarSlide(n) {
+  var i;
+  var elemento = document.getElementsByClassName("slides");
+  if (n > elemento.length) {indice = 1}
+  if (n < 1) {indice = elemento.length} ;
+  for (i = 0; i < elemento.length; i++) {
+    elemento[i].style.display = "none";
+  }
+  elemento[indice-1].style.display = "block";
+}
+
+function cambiarSlide(n) {
+  mostrarSlide(indice += n);
+}
+
+mostrarSlide(indice);
+
+
+
 
